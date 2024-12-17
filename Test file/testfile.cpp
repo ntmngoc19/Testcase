@@ -8,10 +8,6 @@ bool limits(int x, int y)
 {
 	return ((x >= 0 && y >= 0) && (x < N && y < N));
 }
-bool isempty(int a[], int x, int y)
-{
-	return (limits(x, y)) && (a[y*N+x] < 0);
-}
 
 int getDegree(int a[], int x, int y)
 {
